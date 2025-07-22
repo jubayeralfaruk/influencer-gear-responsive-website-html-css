@@ -1,0 +1,35 @@
+@media screen and (max-width: 768px) {
+    
+    /* -----navBar----- */
+    
+    .nav-links{
+        display: none;
+    }
+    .menu-bars{
+        display: inline;
+    }
+    .shopping-card{
+        display: inline;
+    }
+
+    /* -----banner----- */
+
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-container01{
+        text-align: center;
+    }
+
+    /* Sponsor-container */
+    .sponsor-container{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 35px;
+        margin: 0 auto;
+        border: 1px solid rgb(255, 255, 255); 
+        padding: 0px 50px;
+        margin-top: 68px;
+        margin-bottom: 70px;
+    }
+}

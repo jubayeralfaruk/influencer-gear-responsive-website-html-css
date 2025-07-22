@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #3A3A3A;
+    padding: 20px;
+}
+
+
+
+
+/*------------- Share Style-------------- */
+.display-none{
+    display: none;
+}
+
+
+
+
+
+/*------------------------------- Header Styles ----------------------- */
+.header {
+    max-width: 1170px;
+    margin: 0px 110px;
+    margin: 0 auto;
+    padding-top: 3rem;
+    
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.logo {
+    
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #3A3A3A;
+    transition: color 0.5s;
+
+}
+
+.nav-links li a:hover {
+    color: rgb(36, 124, 202);
+}
+
+
+
+/* banner Style */
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Banner Container Styles 01 */
+.banner-container01 {
+    max-width: 580px;
+}
+.banner-container-title{
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+.banner-container-description {
+    max-width: 500px;
+}
+.banner-container01 .btn{
+    background-color: #E02C6D;
+    text-decoration: none;
+    padding: 10px 24px;
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    transition: background-color .2s;
+}
+.banner-container01 .btn:hover {
+    background-color: #f80760;
+}
+.banner-container01 .btn i {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+/* Banner Container Styles 02 */
+
+.banner-container02 {
+    max-width: 480px;
+    position: relative;
+}
+
+.banner-container02 img:nth-child(1){
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.banner-container02 img:nth-child(2){
+    
+}
+
+
+
+
+
+/* --------------------------Main------------------------------- */
+.main{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+
+/*----------------sponsor Section--------------- */
+
+.sponsor-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    border: 1px solid rgb(230, 235, 240); 
+    padding: 35px 62px;
+    margin-top: 68px;
+    margin-bottom: 70px;
+}
+
+
+
+/* <!------------- card-popular-collection -------------> */
+.card-popular-collection{
+     max-width: 1090px;
+     margin: 0px auto; 
+    margin-bottom: 100px; 
+}
+.popular-card-title{
+    font-weight: 600;
+    font-size: 1.75rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    background-color: white;   
+}
+.card{
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
+    padding: 17px 15px;
+    max-width: 350px;
+    border-radius: 100px 8px 8px 8px;
+    transition: width 2.5s ease;
+}
+.card:hover{
+    width: 400px;
+    cursor: pointer;
+}
+.card-image img{
+    width: 100%;
+}
+.card-title{
+    font-weight: 500;
+    font-size: 1.75rem;
+}
+.price{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.rating i{
+    color: #FB8200;
+    margin: 20px 0px;
+}
+.rating span{
+    font-weight: 600;
+}
+.card-text{
+    color: #787885;
+    font-weight: 500;
+}
+
+.see-more{
+    color: #E02C6D;
+    order: 2;
+    text-align: right;
+}
