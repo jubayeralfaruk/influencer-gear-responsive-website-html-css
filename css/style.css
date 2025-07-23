@@ -23,21 +23,23 @@ body {
 /*------------------------------- Header Styles ----------------------- */
 .header {
     max-width: 1170px;
-    margin: 0px 110px;
     margin: 0 auto;
     padding-top: 3rem;
     padding: 0px 20px;
     
 }
+/* .navbar-position{
+    position: fixed;
+    width: 100%;
+} */
 
 .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 3rem;
-}
-
-.logo {
+    padding: 20px 0px;
+    box-shadow: 0px 1px 1px 0px  #ebebeb;
     
 }
 
